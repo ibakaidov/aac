@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		 <style>
+   quote {
+    font-family: Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание текста */
+    
+    quotes: "\00ab" "\00bb"; /* Кавычки в виде двойных угловых скобок */
+	border: 10px solid white;
+	display: block;
+   }
+  </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Здравствуйте!</h1>
+					<p>Сейчас я расскажу о DisQwerty.</p>
+				</section>
+				<section>
+					<h1>Но сначала не много обо мне.</h1>
+					<ul>
+						<li>Иван Бакаидов</li>
+						<li>16 лет</li>
+						<li>10 класс Школы "Динамика"</li>
+						<li>Программирую 5 лет, занимаюсь разработкой программ для инвалидов</li>
+						<li>Серебрянный призер России по бочча</li>
+					</ul>
+				</section>
+				<section>
+				<section>
+					<h1>DisQwerty</h1>
+					<p>Сейчас я расскажу о DisQwerty, но сначала, давайте договоримся, если у Вас вопросы, то Вы поднимаете руку и задаете вопрос. В конце будут мои конкакты, на случай если вопрос возникнет после моего отъезда из Хосписа.</p>
+				</section>
+				
+				<section>
+					<h1>Цитата</h1>
+					<p>Сейчас я процитирую статью Игоря Люнева на сайте Милосердие.ру. Ссылку на саму статью я оставлю вам в отдельном файле с полезной информацией.</p>
+					<quote>
+						У нас в школе есть группа продлённого дня, я прихожу туда после тренировки по бочче, водички попить и поесть. Там я и познакомился с девочкой Линой, она запала мне в душу. Однажды я увидел, как она общается с ассистентом, когда делает упражнения по математике, и летом, когда много свободного времени, решил перенести этот механизм общения в код, заменив ассистента компьютером с кнопкой.
+					</quote>
+				</section>
+				<section>
+					<h1>Ну и понеслось</h1>
+					<p>Мы с учительницей Лины, Юлией Валетиновной Подоплеловой, сошлись в тамдеме и начали дорабатывать клавиатуру, в ее классе еще один мальчик начал использовать эту клавиатуру. Сейчас я покажу три ролика о клавиатуре. Это последния версия под windows.</p>
+				</section>
+				<section>
+					<h3>Основной принцип</h3>
+					<video controls src="videos/disqwerty-1.mp4"></video>
+				</section>
+				
+				<section>
+					<h1>Медленно?</h1>
+					<p>Очень.</p>
+				</section>
+				<section>
+					<h3>А вот так?</h3>
+					<video controls src="videos/disqwerty-2.mp4"></video>					
+				</section>
+				<section>
+					<h1>Круто?</h1>
+					<p>Да, если ребенок умеет читать.
+					</p>
+				</section>
+				<section>
+					<h3>Но если нет...</h3>
+					<video controls src="videos/disqwerty-3.mp4"></video>										
+				</section>
+				<section>
+					<h1>Как этим пользоваться?</h1>
+					<p>Я сейчас все покажу.</p>
+				</section>
+				</section>
+				<section>
+					<h1></h1>
+					<p></p>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>Конец</h1>
+					<ul>
+						<li>VK: http://vk.com/ibakaidov</li>
+						<li>Email: ibakaidov@ya.ru</li>
+						<li>Viber: +79216313995</li>
+						
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
